@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: 0.3fr 2.4fr 0.3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". content ."
+        ". content .";
+}
+
+.content {
+    grid-area: content;
+}
