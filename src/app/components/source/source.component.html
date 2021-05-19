@@ -1,0 +1,17 @@
+<div class="source">
+    <span *ngIf="fileName; else sourcePlaceholder">{{ fileName }}</span>
+    <ng-template #sourcePlaceholder>
+        <span>{{ '_.SOURCE_PLACEHOLDER' | translate }}</span>
+    </ng-template>
+</div>
+
+<div class="code-frame">
+
+    <pre>
+        <code
+            [languages]="languages || []"
+            [highlight]="code || ''">
+        </code>
+    </pre>
+
+</div>

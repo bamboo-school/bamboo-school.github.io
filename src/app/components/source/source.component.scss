@@ -1,0 +1,18 @@
+.source {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #d1cdd6;
+}
+
+.code-frame {
+    border-radius: 6px;
+    border: 2px solid #363537;
+    background: #131313;
+
+    pre {
+        margin: 0;
+    }
+}

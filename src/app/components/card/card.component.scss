@@ -1,0 +1,30 @@
+.card {
+    border-radius: 10px;
+    border-width: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    border-color: #48bb78;
+    border-style: solid;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 2rem;
+
+    &:hover {
+        margin-top: 1.5rem;
+        background: rgba(255,255,255,0.05);
+    }
+
+    .title {
+        text-transform: uppercase;
+        color: #b2aeb8;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .content {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+}

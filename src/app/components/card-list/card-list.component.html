@@ -1,0 +1,12 @@
+<div *ngIf="title" class="title">{{title}}</div>
+
+<div class="list">
+    <app-card
+        *ngFor="let card of cards"
+        [text]="card.text"
+        [header]="card.header"
+        [color]="card.color"
+        [link]="card.link"
+    >
+    </app-card>
+</div>

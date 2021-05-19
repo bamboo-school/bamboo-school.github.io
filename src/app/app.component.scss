@@ -6,6 +6,8 @@ main {
     grid-template-areas:
         ". content ."
         ". content .";
+
+    padding-bottom: 128px;
 }
 
 .content {

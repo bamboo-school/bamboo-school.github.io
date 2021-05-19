@@ -1,3 +1,26 @@
 {
-    "test": "value"
+    "_": {
+        "SOURCE_PLACEHOLDER": "Source"
+    },
+
+    "MATERIALS": [
+        {
+            "name": "Java Core",
+            "lectures": [
+                {
+                    "title": "Типы данных",
+                    "subtitle": "Примитивные типы данных",
+                    "color": "#ed8936",
+                    "link": ["pres", "java_primitive_data_types"]
+                }
+            ]
+        }
+    ],
+
+    "PRESENTATIONS": [
+        {
+            "id": "java_primitive_data_types",
+            "fileLink": "presentations/java_core/primitive_data_types/ru.json"
+        }
+    ]
 }

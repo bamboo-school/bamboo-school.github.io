@@ -1,0 +1,13 @@
+.title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #d1cdd6;
+    font-weight: bold;
+}
+
+.list {
+    width: 100%;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}

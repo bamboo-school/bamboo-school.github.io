@@ -1,0 +1,32 @@
+<div
+    *ngIf="presentation?.title"
+    class="header">
+    {{presentation?.title}}
+</div>
+
+<div
+    class="back-btn"
+    routerLink="/">
+
+    <i class="material-icons">
+        arrow_back_ios
+    </i>
+</div>
+
+<div
+    *ngFor="let block of presentation?.blocks"
+    [ngSwitch]="block.type">
+
+    <ng-template ngSwitchCase="text">
+        <p class="text-content">{{block.data}}</p>
+    </ng-template>
+
+    <ng-template ngSwitchCase="code">
+        <app-source
+            [code]="block.data"
+            [languages]="block.extra?.languages || []"
+            [file-name]="block.extra?.fileName">
+        </app-source>
+    </ng-template>
+
+</div>
