@@ -14,6 +14,23 @@
                     "link": ["pres", "java_primitive_data_types"]
                 }
             ]
+        },
+        {
+            "name": "Golang",
+            "lectures": [
+                {
+                    "title": "Введение",
+                    "subtitle": "С чего начать?",
+                    "color": "#0bc5ea",
+                    "link": ["pres", "go_intro"]
+                },
+                {
+                    "title": "Типы данных",
+                    "subtitle": "Примитивные типы данных",
+                    "color": "#0bc5ea",
+                    "link": ["pres", "java_primitive_data_types"]
+                }
+            ]
         }
     ],
 
@@ -21,6 +38,10 @@
         {
             "id": "java_primitive_data_types",
             "fileLink": "presentations/java_core/primitive_data_types/ru.json"
+        },
+        {
+            "id": "go_intro",
+            "fileLink": "presentations/golang/intro/ru.json"
         }
     ]
 }

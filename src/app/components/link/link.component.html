@@ -1,0 +1,11 @@
+<button
+    (click)="navigate()"
+    [title]="href"
+    [style.background]="background || '#fff'"
+    [style.color]="foreground || '#000'">
+
+    <div class="body">
+        <i class="material-icons">{{ icon || 'link' }}</i>
+        <span>{{ text }}</span>
+    </div>
+</button>

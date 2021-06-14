@@ -29,4 +29,24 @@
         </app-source>
     </ng-template>
 
+    <ng-template ngSwitchCase="img">
+        <img
+            class="image"
+            [src]="block.data" />
+    </ng-template>
+
+    <ng-template ngSwitchCase="link">
+        <app-link
+            [href]="block.data"
+            [icon]="block.extra.icon"
+            [fg]="block.extra.fg"
+            [bg]="block.extra.bg"
+            [text]="block.extra.text">
+        </app-link>
+    </ng-template>
+
+    <ng-template ngSwitchCase="bash">
+        <app-bash [cmd]="block.data"></app-bash>
+    </ng-template>
+
 </div>
